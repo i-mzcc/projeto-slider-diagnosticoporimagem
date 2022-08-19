@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico por Imagem na Veterinária</title>
+
+    <link rel="shortcut icon" href="src/imagens/patinha.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans:wght@200&family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css"/>
+
+    <link rel="stylesheet" href="src/css/estilo.css"/>
+
+    <link rel="stylesheet" href="src/css/responsivo.css"/>
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Diagnóstico por Imagem na Veterinária</h1>
+    </header>
+
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/Seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-modalidades">
+            <li class="cartao selecionado">
+                <div class="informacoes">
+                    <h2 class="nome">Radiografia</h2>
+                </div>
+
+                <div class="container-image">
+                    <img class="imagem-modalidade" src="src/imagens/RX.png" alt="Ícone radiografia">
+                </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                            <p class="texto"> Modalidade diagnóstica que utiliza radiação para a obtenção de imagens radiográficas, onde é possível realizar a avaliação das estruturas ósseas, campos pulmonares e a avaliação parcial das estruturas de tecidos moles.</p>
+                    </div>
+            </li>
+
+            <li class="cartao">
+                <div class="informacoes">
+                    <h2 class="nome">Ultrassonografia</h2>
+                </div>
+
+                <div class="container-image">
+                    <img class="image-modalidade" src="src/imagens/US.png" alt="Ícone ultrassonografia">              
+                </div>
+                     <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                         <p class="texto">Modalidade diagnóstica que utiliza ondas sonoras para a obtençao de imagens ultrassonográficas que permitem a avaliação dos órgão abdominais, estruturas vasculares, superfícies articulares, estruturas cervicais, estruturas intra-oculares e estruturas intra-cranianas. </p>
+                    </div>
+            </li>
+
+            <li class="cartao">
+                <div class="informacoes">
+                    <h2 class="nome">Ecocardiografia</h2>
+                </div>
+
+                <div class="container-image">
+                    <img class="image-modalidade" src="src/imagens/ECO.jpg" alt="Ícone ecocardiografia">
+                </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Modalidade que utiliza ondas sonoras (assim como a ultrassonografia) para avaliar as estruturas cardíacas e o seu funcionamento.</p>
+                    </div>
+            </li>
+
+            <li class="cartao">
+                <div class="informacoes">
+                    <h2 class="nome">Endoscopia</h2>
+                </div>
+
+                <div class="container-image">
+                    <img class="image-modalidade" src="src/imagens/Endoscopia.png" alt="Ícone endoscopia">
+                </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Modalidade que obtém imagens diagnósticas e/ou realiza intervenções como biópsias e retiradas de corpos estranhos no trato gastrointestinal (esôfago e estômago, principalmente) com a utilização de um endoscópio. </p>
+                    </div>
+            </li>
+        </ul>
+    <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/Seta.png" alt="Seta avançar">
+    </button>
+
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
